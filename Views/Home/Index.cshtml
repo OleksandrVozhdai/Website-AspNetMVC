@@ -1,0 +1,235 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/Menu">Offers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Pizzas">Pizzas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@((ViewBag.UserName != null) ? "/UserAccount" : "/Authorisation")">
+                    @if (ViewBag.UserName != null)
+                    {
+                        @ViewBag.UserName   
+                    }
+                    else
+                    {
+                        @:Sign up or Log in
+                    }
+                </a>
+            </li>
+
+            @if (ViewBag.UserName == "Oleksandr")
+            {
+                <li class="nav-item">
+                    <a class="nav-link" href="/Admin">Admin Panel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/PizzaList">Menu Settings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Purchases">Purchases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Ingredients">Ingredients</a>
+                </li>
+            }
+        </ul>
+    </div>
+</nav>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Pizza Restaurant</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+
+        .hero {
+            height: 600px;
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+            .hero h1 {
+                font-size: 60px;
+                margin-bottom: 10px;
+            }
+
+            .hero h2 {
+                font-size: 30px;
+                margin-bottom: 10px;
+                color: white;
+                font-family: 'Comic Sans MS', cursive, sans-serif;
+            }
+
+            .hero h3 {
+                font-size: 30px;
+                color: white;
+                font-family: 'Comic Sans MS', cursive, sans-serif;
+            }
+
+            .hero button {
+                padding: 10px 20px;
+                background-color: red;
+                color: white;
+                border: none;
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+        .info-section {
+            margin: 50px 0;
+            text-align: center;
+        }
+
+            .info-section h2 {
+                font-size: 60px;
+                margin-left: 350px;
+                color: white;
+                font-family: 'Comic Sans MS', cursive, sans-serif;
+            }
+
+            .info-section h3 {
+                font-size: 30px;
+                margin-left: 350px;
+                color: white;
+                font-family: 'Comic Sans MS', cursive, sans-serif;
+            }
+
+            .info-section p {
+                font-size: 18px;
+                margin: 20px 0;
+            }
+
+        .special-offers {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .offer-item {
+            text-align: center;
+            width: 30%;
+            padding: 20px;
+            transition: transform 0.3s ease;
+            background-color: #1f1f1f;
+        }
+
+            .offer-item:hover {
+                transform: scale(1.1);
+            }
+
+            .offer-item img {
+                width: 100%;
+                height: auto;
+            }
+    </style>
+</head>
+<body>
+
+   
+    <div id="heroCarousel" class="carousel slide hero" data-ride="carousel" data-interval="3000">
+     
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/BackgroundSiteHome.jpg" class="d-block w-100" alt="Background 1">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/BackgroundSiteHome2.jpg" class="d-block w-100" alt="Background 2">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/BackgroundSiteHome3.jpg" class="d-block w-100" alt="Background 3">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="info-section container">
+        <h2>- About Us -</h2>
+    </div>
+    <div class="info-section container">
+        <h3>We serve the best pizza in town, made with fresh ingredients and a passion for flavor.</h3>
+        <h3>Come and enjoy a wonderful dining experience with friends and family.</h3>
+        <h3>Check our menu!</h3>
+    </div>
+
+ 
+    <div class="special-offers container">
+        <div class="offer-item">
+            <img src="~/images/FamilyTemplate.jpg" alt="Hot Choice">
+        </div>
+        <div class="offer-item">
+            <img src="~/images/SaleTemplate.jpg" alt="Happy Hour">
+        </div>
+        <div class="offer-item">
+            <img src="~/images/GrandTemplate.png" alt="Lunch Special">
+        </div>
+    </div>
+
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('#heroCarousel').carousel({
+                interval: 5000, 
+                pause: false 
+            });
+
+            $(window).on('scroll', function () {
+                $('#heroCarousel').carousel('cycle');
+            });
+        });
+    </script>
+</body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        let index = 0;
+        const offers = $('.offer-item');
+
+        function animateOffers() {
+
+            offers.css('transform', 'scale(1)');
+
+            $(offers[index]).css('transform', 'scale(1.1)');
+
+            index = (index + 1) % offers.length;
+        }
+
+
+        setInterval(animateOffers, 3000);
+    });
+
+</script>

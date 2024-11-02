@@ -1,0 +1,83 @@
+﻿@model IEnumerable<LAB2_OOKP.Models.Purchase>
+
+@{
+    ViewData["Title"] = "Purchases";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Purchases</h1>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Street</th>
+            <th>House</th>
+            <th>Pizza Name</th>
+            <th>Pizza Price</th>
+            <th>Purchase Date</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach (var purchase in Model)
+        {
+            <tr>
+                <td>@purchase.Id</td>
+                <td>@purchase.Name</td>
+                <td>@purchase.Surname</td>
+                <td>@purchase.Street</td>
+                <td>@purchase.House</td>
+                <td>@purchase.PizzaName</td>
+                <td>@purchase.PizzaPrice</td>
+                <td>@purchase.PurchaseDate</td>
+                <td>
+                    <form asp-action="DeleteConfirmed" asp-route-id="@purchase.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this pizza?');">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+    <h3>Total Sum: @ViewBag.TotalSum.ToString("0.00") $</h3>
+
+
+
+
+
+<form method="get" asp-action="Index" class="form-inline mb-3">
+    <div class="form-group mb-2">
+        <label for="filterId" class="sr-only">Purchase ID</label>
+        <input type="text" class="form-control" id="filterId" name="filterId" placeholder="Filter by ID" value="@ViewData["FilterId"]">
+    </div>
+    <div class="form-group mb-2">
+        <label for="filterName" class="sr-only">Name</label>
+        <input type="text" class="form-control" id="filterName" name="filterName" placeholder="Filter by Name" value="@ViewData["FilterName"]">
+    </div>
+    <div class="form-group mb-2">
+        <label for="filterPrice" class="sr-only">Surname</label>
+        <input type="text" class="form-control" id="filterSurname" name="filterSurname" placeholder="Filter by Surname" value="@ViewData["FilterSurname"]">
+    </div>
+    <div class="form-group mb-2">
+        <label for="filterPrice" class="sr-only">Pizza Name</label>
+        <input type="text" class="form-control" id="filterPizzaName" name="filterPizzaName" placeholder="Filter by Pizza Name" value="@ViewData["filterPizzaName"]">
+    </div>
+    <div class="form-group mb-2">
+        <label for="filterPrice" class="sr-only">Price</label>
+        <input type="text" class="form-control" id="filterPrice" name="filterPrice" placeholder="Filter by Price" value="@ViewData["filterPrice"]">
+    </div>
+
+
+    <button type="submit" class="btn btn-primary mb-2">Filter</button>
+
+
+</form>

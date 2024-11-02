@@ -1,0 +1,122 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorisation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .auth-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .submit-btn {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .creatreacc-btn {
+            color: blue;
+            padding: 0;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: underline;
+        }
+
+            .creatreacc-btn:hover {
+                text-decoration: none;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+      
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <form action="/Create/Index" method="post">
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" id="Name" name="Name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="Surname">Surname</label>
+                <input type="text" id="Surname" name="Surname" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" class="form-control" required>
+          
+                @if (ViewData.ModelState["Email"] != null)
+                {
+                    <span class="text-danger">@ViewData.ModelState["Email"].Errors.FirstOrDefault()?.ErrorMessage</span>
+                }
+            </div>
+            <div class="form-group">
+                <label for="Age">Age:</label>
+                <input type="number" id="Age" name="Age" class="form-control" required min="1">
+            </div>
+            <div class="form-group">
+                <label for="Phone_Number">Phone number:</label>
+                <input type="text" id="Phone_Number" name="Phone_Number" class="form-control" required>
+ 
+                @if (ViewData.ModelState["Phone_Number"] != null)
+                {
+                    <span class="text-danger">@ViewData.ModelState["Phone_Number"].Errors.FirstOrDefault()?.ErrorMessage</span>
+                }
+            </div>
+            <div class="form-group">
+                <label for="Password">Password:</label>
+                <input type="password" id="Password" name="Password" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="ConfirmPassword">Confirm password:</label>
+                <input type="password" id="ConfirmPassword" name="ConfirmPassword" class="form-control" required>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<LAB2_OOKP.Models.Ingredients>
+
+@{
+    ViewData["Title"] = "Ingredients List";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Ingredients List</h1>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>IngredientID</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Unit</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ingredient in Model)
+        {
+            <tr>
+                <td>@ingredient.IngredientID</td>
+                <td>@ingredient.Name</td>
+                <td>@ingredient.Quantity</td>
+                <td>@ingredient.Unit</td>
+                <td>@ingredient.Price</td>
+                <td>
+                    <form asp-action="Edit" asp-route-id="@ingredient.IngredientID" method="get" style="display:inline;">
+                        <button type="submit" class="btn btn-success">Edit</button>
+                    </form>
+                    <form asp-action="DeleteConfirmed" asp-route-id="@ingredient.IngredientID" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?');">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form method="get" asp-action="Index" class="form-inline">
+    <div class="form-group mb-2">
+        <label for="filterId" class="sr-only">ID</label>
+        <input type="text" class="form-control" id="filterId" name="filterId" placeholder="Filter by ID">
+    </div>
+    <div class="form-group mb-2">
+        <label for="filterName" class="sr-only">Name</label>
+        <input type="text" class="form-control" id="filterName" name="filterName" placeholder="Filter by Name">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Filter</button>
+</form>
+

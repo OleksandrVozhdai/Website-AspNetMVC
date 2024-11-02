@@ -1,0 +1,93 @@
+﻿@{
+    Layout = null;
+}
+@model LAB2_OOKP.Models.ChangePasswordViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Password</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Profile</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Pizzas">Pizzas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@((ViewBag.UserName != null) ? "/UserAccount" : "/Authorisation")">
+                        @if (ViewBag.UserName != null)
+                        {
+                            @ViewBag.UserName
+                        }
+                        else
+                        {
+                            @:Sign up or Log in
+                        }
+                    </a>
+                </li>
+
+                @if (ViewBag.UserName == "Oleksandr")
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin">Admin Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin">Menu Settings</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Change Password</h2>
+        <form asp-action="ChangePassword" method="post">
+            <div class="form-group">
+                <label for="oldPassword">Current Password</label>
+                <input type="password" class="form-control" id="oldPassword" name="OldPassword" required />
+            </div>
+            <div class="form-group">
+                <label for="newPassword">New Password</label>
+                <input type="password" class="form-control" id="newPassword" name="NewPassword" required />
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm New Password</label>
+                <input type="password" class="form-control" id="confirmPassword" name="ConfirmPassword" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Change Password</button>
+        </form>
+
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <p>@error.ErrorMessage</p>
+                }
+            </div>
+        }
+
+        @if (ViewBag.Message != null)
+        {
+            <div class="alert alert-success">
+                <p>@ViewBag.Message</p>
+            </div>
+        }
+    </div>
+</body>
+</html>

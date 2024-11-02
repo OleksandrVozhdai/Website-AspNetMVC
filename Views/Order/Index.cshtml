@@ -1,0 +1,181 @@
+﻿@model LAB2_OOKP.Models.Order
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/images/OrderBackground.jpg');
+            padding: 20px;
+        }
+
+        .order-container {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .left-column {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .right-column {
+            flex: 1;
+            padding: 20px;
+            border-left: 1px solid #ccc;
+        }
+
+        .pizza-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .order-btn {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .ingredient-btn {
+            background-color: transparent;
+            border: 2px solid black;
+            color: black;
+            font-size: 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+
+            .ingredient-btn:hover {
+                background-color: #f0f0f0;
+            }
+
+        .ingredient-description {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .ingredient-row {
+            display: flex; 
+            align-items: center; 
+            margin: 10px 0; 
+        }
+
+        .ingredient-label {
+            margin-left: 10px; 
+        }
+
+        .ingredient-count {
+            margin: 0 10px; 
+            font-size: 20px; 
+        }
+    </style>
+</head>
+<body>
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">
+            @Model.ErrorMessage
+        </div>
+    }
+    <div class="order-container">
+        <div class="left-column">
+
+
+
+            <img src="~/images/@Model.SelectedPizzaImage" alt="Selected Pizza" class="pizza-image">
+            <h3>@Model.SelectedPizzaName</h3>
+
+            <form action="/Order/PlaceOrder" method="post">
+                <input type="hidden" name="selectedPizzaName" value="@Model.SelectedPizzaName" />
+                <input type="hidden" name="selectedPizzaPrice" value="@Model.SelectedPizzaPrice" />
+
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" name="surname" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="street">Street:</label>
+                    <input type="text" id="street" name="street" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="house">House:</label>
+                    <input type="text" id="house" name="house" class="form-control" required>
+                </div>
+
+                <button type="submit" class="order-btn">Buy</button>
+            </form>
+        </div>
+
+        <div class="right-column">
+            <h4>@Model.SelectedPizzaDescription</h4>
+            <p class="ingredient-description">Choose additional ingredients:</p>
+            <p>Price: <strong>@Model.SelectedPizzaPrice.ToString("0.00")$</strong></p>
+
+
+
+            <div class="ingredient-row">
+                <span class="ingredient-label">Extra Meat</span>
+                <button class="ingredient-btn" onclick="updateCount('extraMeat', 1)">+</button>
+                <span class="ingredient-count" id="extraMeatCount">0</span>
+                <button class="ingredient-btn" onclick="updateCount('extraMeat', -1)">-</button>
+            </div>
+
+            <div class="ingredient-row">
+                <span class="ingredient-label">Extra Cheese</span>
+                <button class="ingredient-btn" onclick="updateCount('extraCheese', 1)">+</button>
+                <span class="ingredient-count" id="extraCheeseCount">0</span>
+                <button class="ingredient-btn" onclick="updateCount('extraCheese', -1)">-</button>
+            </div>
+
+            <div class="ingredient-row">
+                <span class="ingredient-label">Vegetables</span>
+                <button class="ingredient-btn" onclick="updateCount('vegetables', 1)">+</button>
+                <span class="ingredient-count" id="vegetablesCount">0</span>
+                <button class="ingredient-btn" onclick="updateCount('vegetables', -1)">-</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function updateCount(ingredient, change) {
+            const countElement = document.getElementById(ingredient + 'Count');
+            let currentCount = parseInt(countElement.textContent);
+            currentCount += change;
+
+            if (currentCount < 0) currentCount = 0;
+            countElement.textContent = currentCount;
+        }
+    </script>
+</body>
+</html>

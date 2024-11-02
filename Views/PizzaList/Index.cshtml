@@ -1,0 +1,71 @@
+﻿@model IEnumerable<LAB2_OOKP.Models.PizzaList>
+
+@{
+    ViewData["Title"] = "Pizza List";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Pizza List</h1>
+</div>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Add Pizza</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Pizza Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Date of last purchase</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pizza in Model)
+        {
+            <tr>
+                <td>@pizza.Id</td>
+                <td>@pizza.pizza_name</td>
+                <td>@pizza.price</td>
+                <td>@pizza.Description</td>
+                <td>@pizza.LastPurchase?.ToString("yyyy-MM-dd HH:mm:ss")</td> 
+
+                <td>
+                    <form asp-action="Edit" asp-route-id="@pizza.Id" method="get" style="display:inline;">
+                        <button type="submit" class="btn btn-success">Edit</button>
+                    </form>
+
+                    @{
+                        
+                        var isOldEnoughToDelete = pizza.LastPurchase == null || pizza.LastPurchase < DateTime.Now.AddMonths(-5);
+                    }
+
+                    <form asp-action="DeleteConfirmed" asp-route-id="@pizza.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger"
+                        @(isOldEnoughToDelete ? "" : "disabled")
+                                onclick="return confirm('Are you sure you want to delete this pizza?');">
+                            Delete
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form method="get" asp-action="Index" class="form-inline mb-3">
+    <div class="form-group mb-2">
+        <label for="filterId" class="sr-only">Pizza ID</label>
+        <input type="text" class="form-control" id="filterId" name="filterId" placeholder="Filter by ID" value="@ViewData["FilterId"]">
+    </div>
+    <div class="form-group mb-2">
+        <label for="filterName" class="sr-only">Pizza Name</label>
+        <input type="text" class="form-control" id="filterName" name="filterName" placeholder="Filter by Name" value="@ViewData["FilterName"]">
+    </div>
+    <div class="form-group mb-2">
+        <label for="filterPrice" class="sr-only">Price</label>
+        <input type="text" class="form-control" id="filterPrice" name="filterPrice" placeholder="Filter by Price" value="@ViewData["FilterPrice"]">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Filter</button>
+</form>
