@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNet-MVC\\SiteMVC.csproj": {}
+    "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\SiteMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNet-MVC\\SiteMVC.csproj": {
+    "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\SiteMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNet-MVC\\SiteMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\SiteMVC.csproj",
         "projectName": "SiteMVC",
-        "projectPath": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNet-MVC\\SiteMVC.csproj",
+        "projectPath": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\SiteMVC.csproj",
         "packagesPath": "C:\\Users\\Oleks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNet-MVC\\obj\\",
+        "outputPath": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

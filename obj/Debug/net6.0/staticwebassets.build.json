@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LqvKdmAQQ0eyTLJq3PqDViguQtE6fzA6BaJgoHWnzMU=",
+  "Hash": "dWijJx7bZ+lFv2+VBz2409aPYc27SlfL4RoyePJ8YHo=",
   "Source": "SiteMVC",
   "BasePath": "_content/SiteMVC",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SiteMVC\\wwwroot",
       "Source": "SiteMVC",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SiteMVC.styles.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SiteMVC.styles.css",
       "SourceId": "SiteMVC",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "SiteMVC.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SiteMVC.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SiteMVC.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SiteMVC.bundle.scp.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SiteMVC.bundle.scp.css",
       "SourceId": "SiteMVC",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "SiteMVC.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SiteMVC.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SiteMVC.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\css\\site.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\favicon.ico",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\1.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\1.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/1.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\1.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\11.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\11.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/11.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\11.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\13.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\13.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/13.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\13.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\14.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\14.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/14.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\14.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\2.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\2.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/2.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\2.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\3.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\3.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/3.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\3.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\4.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\4.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/4.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\4.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\5.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\5.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/5.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\5.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\6.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\6.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/6.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\6.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\7.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\7.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/7.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\7.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\8.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\8.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/8.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\8.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\9.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\9.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/9.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\9.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\BackgroundSiteHome.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\BackgroundSiteHome.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/BackgroundSiteHome.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\BackgroundSiteHome.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\BackgroundSiteHome2.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\BackgroundSiteHome2.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/BackgroundSiteHome2.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\BackgroundSiteHome2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\BackgroundSiteHome3.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\BackgroundSiteHome3.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/BackgroundSiteHome3.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\BackgroundSiteHome3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\BackgrundSite.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\BackgrundSite.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/BackgrundSite.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\BackgrundSite.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\Contact_Template.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\Contact_Template.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/Contact_Template.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Contact_Template.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\FamilyTemplate.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\FamilyTemplate.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/FamilyTemplate.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\FamilyTemplate.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\First_Template.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\First_Template.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/First_Template.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\First_Template.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\GrandTemplate.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\GrandTemplate.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/GrandTemplate.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\GrandTemplate.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\Menu_Template.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\Menu_Template.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/Menu_Template.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Menu_Template.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\OrderBackground.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\OrderBackground.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/OrderBackground.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\OrderBackground.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\Pizza-removebg-preview.png",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\Pizza-removebg-preview.png",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/Pizza-removebg-preview.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Pizza-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\SaleTemplate.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\SaleTemplate.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/SaleTemplate.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\SaleTemplate.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\Second_Template.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\Second_Template.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/Second_Template.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Second_Template.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\Images\\Third_Template.jpg",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\Images\\Third_Template.jpg",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "Images/Third_Template.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Third_Template.jpg"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\js\\site.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "SiteMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\SiteAspNetOOKP\\SiteMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
       "BasePath": "_content/SiteMVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

@@ -21,6 +21,13 @@ public class CreateController : Controller
     {
         System.Diagnostics.Debug.WriteLine($"Name: {Name}, Surname: {Surname}, Email: {Email}, Phone: {Phone_Number}, Password: {Password}, ConfirmPassword: {ConfirmPassword}, Age: {Age}");
 
+
+        if (_context.UsersTable.Any(u => u.Email == Email))
+        {
+            ModelState.AddModelError("", "This email is already registered.");
+            return View();
+        }
+
         if (Age < 18)
         {
             ModelState.AddModelError("", "Registration is allowed only for users 18 years old and above.");
@@ -35,8 +42,7 @@ public class CreateController : Controller
 
         char[] phumbers = Phone_Number.ToCharArray();
 
-        if (phumbers.Length !>= 11 || phumbers[0] != '+' ||
-             !(char.IsDigit(phumbers[0]) || char.IsLetter(phumbers[0])))
+        if (phumbers.Length < 11 || phumbers[0] != '+' || !phumbers.Skip(1).All(char.IsDigit))
         {
             ModelState.AddModelError("", "Enter correct phone number");
             return View();
@@ -56,4 +62,5 @@ public class CreateController : Controller
 
         return RedirectToAction("Index", "Home");
     }
+
 }

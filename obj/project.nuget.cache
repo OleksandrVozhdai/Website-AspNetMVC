@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/66gQ7fkClg6+il/TCQvjhyIUD8lh5u71dX3NVzcezO+Bnh/s3NV2T+mSTAa5zjBUZABmCKgPWucmL6YP5HFMA==",
+  "dgSpecHash": "gBqg/GrmVM1E+1KFnBkn8J+AsiumPqgwIwzQITehyCmtE4hz5IZHghWKZQ5Tfjf4rcCLm/oFz8PGcFPj6yCwQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNet-MVC\\SiteMVC.csproj",
+  "projectFilePath": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\SiteMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Oleks\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\Oleks\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
