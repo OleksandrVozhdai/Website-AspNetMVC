@@ -53,6 +53,7 @@ public class CreateController : Controller
             Name = Name,
             Surname = Surname,
             Email = Email,
+            Age = Age,
             PhoneNumber = Phone_Number,
             Password = Password
         };
