@@ -166,3 +166,4 @@ C:\Users\Oleks\OneDrive\Dokumenty\GitHub\Website-AspNetMVC\obj\Debug\net6.0\refi
 C:\Users\Oleks\OneDrive\Dokumenty\GitHub\Website-AspNetMVC\obj\Debug\net6.0\SiteMVC.pdb
 C:\Users\Oleks\OneDrive\Dokumenty\GitHub\Website-AspNetMVC\obj\Debug\net6.0\SiteMVC.genruntimeconfig.cache
 C:\Users\Oleks\OneDrive\Dokumenty\GitHub\Website-AspNetMVC\obj\Debug\net6.0\ref\SiteMVC.dll
+C:\Users\Oleks\OneDrive\Dokumenty\GitHub\Website-AspNetMVC\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
