@@ -1,5 +1,9 @@
 ﻿using LAB2_OOKP.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
+using Microsoft.AspNetCore.Authorization;
+
+
 
 namespace LAB2_OOKP.Controllers
 {
@@ -12,7 +16,7 @@ namespace LAB2_OOKP.Controllers
             _context = context;
         }
 
-      
+        [Authorize(Roles = "Admin")]
         public IActionResult Index(string filterId, string filterName, string filterPhoneNumber)
         {
             var users = _context.UsersTable.AsQueryable();

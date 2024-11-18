@@ -17,11 +17,10 @@ public class CreateController : Controller
     }
 
     [HttpPost]
+    [HttpPost]
     public IActionResult Index(string Name, string Surname, string Email, string Phone_Number, string Password, string ConfirmPassword, int Age)
     {
-        System.Diagnostics.Debug.WriteLine($"Name: {Name}, Surname: {Surname}, Email: {Email}, Phone: {Phone_Number}, Password: {Password}, ConfirmPassword: {ConfirmPassword}, Age: {Age}");
-
-
+        // Перевірки
         if (_context.UsersTable.Any(u => u.Email == Email))
         {
             ModelState.AddModelError("", "This email is already registered.");
@@ -41,7 +40,6 @@ public class CreateController : Controller
         }
 
         char[] phumbers = Phone_Number.ToCharArray();
-
         if (phumbers.Length < 11 || phumbers[0] != '+' || !phumbers.Skip(1).All(char.IsDigit))
         {
             ModelState.AddModelError("", "Enter correct phone number");
@@ -61,7 +59,22 @@ public class CreateController : Controller
         _context.UsersTable.Add(newUser);
         _context.SaveChanges();
 
+        // Генерація звіту
+        GenerateRegistrationReport(Name);
+
         return RedirectToAction("Index", "Home");
     }
+
+    private void GenerateRegistrationReport(string name)
+    {
+        string reportPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "reports", "registration_report.txt");
+        Directory.CreateDirectory(Path.GetDirectoryName(reportPath));
+
+        using (StreamWriter writer = new StreamWriter(reportPath, true))
+        {
+            writer.WriteLine($"Користувач {name} зареєструвався {DateTime.Now.ToString("dd.MM.yyyy HH:mm", CultureInfo.InvariantCulture)}");
+        }
+    }
+
 
 }

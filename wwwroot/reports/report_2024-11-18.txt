@@ -1,0 +1,41 @@
+Звіт
+---------------------------------------------------------------
+Дата звіту: 2024-11-18
+09:12:51: Anastasia Shevchuk купив Four Cheese Pizza за 14,00 ₴
+09:15:11: Oleksandr Shevchuk купив Margherita Pizza за 11,00 ₴
+09:24:57: Anastasia Shevchuk купив Four Cheese Pizza за 14,00 ₴
+09:25:36: Oleksandr Denysiuk купив Pepperoni Pizza за 11,00 ₴
+09:27:25: Oleksandr Denysiuk купив Margherita Pizza за 11,00 ₴
+09:27:57: Anastasia Romanova купив Four Cheese Pizza за 14,00 ₴
+09:29:37: Petro Melnyk купив Hawaiian Pizza за 14,00 ₴
+09:32:18: Anton Vorobyov купив Spinach and Feta Pizza за 13,00 ₴
+09:35:36: Anastasia Denysiuk купив Vegetarian Pizza за 11,00 ₴
+09:37:07: Dmitry Melnyk купив Four Cheese Pizza за 14,00 ₴
+09:39:43: Oleksandr Denysiuk купив Margherita Pizza за 11,00 ₴
+09:41:35: Oleksandr Shevchuk купив Pesto Pizza за 14,00 ₴
+09:43:28: Oleksandr Shevchuk купив BBQ Chicken Pizza за 13,00 ₴
+
+Загальні залишки інгредієнтів:
+- Tomato Sauce: 26,05
+- Mozzarella Cheese: 23,15
+- Pepperoni: 19,40
+- Olives: 14,80
+- Mushrooms: 23,50
+- Basil: 4,50
+- Onions: 9,90
+- Garlic: 8
+- Bell Peppers: 11,80
+- Parmesan Cheese: 9,75
+
+Піц, зроблених за день:
+- Four Cheese Pizza x4
+- Margherita Pizza x3
+- Pepperoni Pizza x1
+- Hawaiian Pizza x1
+- Spinach and Feta Pizza x1
+- Vegetarian Pizza x1
+- Pesto Pizza x1
+- BBQ Chicken Pizza x1
+
+Прибуток за сьогодні: 165,00 ₴
+----------------------------------------

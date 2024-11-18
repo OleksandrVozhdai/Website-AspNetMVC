@@ -67,5 +67,20 @@ namespace LAB2_OOKP.Controllers
             }
             return NotFound();
         }
+
+        public IActionResult DownloadReport()
+        { 
+            string reportDate = DateTime.Today.ToString("yyyy-MM-dd");
+            string reportPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "reports", $"report_{reportDate}.txt");
+
+            if (!System.IO.File.Exists(reportPath))
+            {
+                return NotFound("Report not found.");
+            }
+
+            var fileBytes = System.IO.File.ReadAllBytes(reportPath);
+            return File(fileBytes, "application/octet-stream", $"report_{reportDate}.txt");
+        }
+
     }
 }

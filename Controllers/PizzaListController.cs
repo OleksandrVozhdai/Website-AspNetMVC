@@ -63,6 +63,9 @@ namespace LAB2_OOKP.Controllers
             return View(model);
         }
 
+        
+
+
 
         [HttpGet]
         public IActionResult Edit(int id)

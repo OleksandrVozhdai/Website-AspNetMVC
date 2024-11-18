@@ -19,12 +19,9 @@
             <th>Pizza Name</th>
             <th>Pizza Price</th>
             <th>Purchase Date</th>
-
-
         </tr>
     </thead>
     <tbody>
-        
         @foreach (var purchase in Model)
         {
             <tr>
@@ -46,15 +43,10 @@
     </tbody>
 </table>
 
-
-
-    <h3>Total Sum: @ViewBag.TotalSum.ToString("0.00") $</h3>
-
-
-
-
+<h3>Total Sum: @ViewBag.TotalSum.ToString("0.00") $</h3>
 
 <form method="get" asp-action="Index" class="form-inline mb-3">
+    <!-- Форма для фільтрації -->
     <div class="form-group mb-2">
         <label for="filterId" class="sr-only">Purchase ID</label>
         <input type="text" class="form-control" id="filterId" name="filterId" placeholder="Filter by ID" value="@ViewData["FilterId"]">
@@ -75,9 +67,10 @@
         <label for="filterPrice" class="sr-only">Price</label>
         <input type="text" class="form-control" id="filterPrice" name="filterPrice" placeholder="Filter by Price" value="@ViewData["filterPrice"]">
     </div>
-
-
     <button type="submit" class="btn btn-primary mb-2">Filter</button>
-
-
 </form>
+
+<!-- Кнопка для завантаження звіту -->
+<div class="text-center mt-3">
+    <a href="@Url.Action("DownloadReport", "Purchases")" class="btn btn-success">Download Report</a>
+</div>
