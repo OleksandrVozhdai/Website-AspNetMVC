@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KS3klSRUFcONf8bEwZnJpnE9rfOqdIwdOVjLlZdaIQw=",
+  "Hash": "XALcAXndi4BDulXbIXiF5niNnCuEZBA8KEmqL3ayteo=",
   "Source": "SiteMVC",
   "BasePath": "_content/SiteMVC",
   "Mode": "Default",
@@ -2548,6 +2548,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\reports\\report_2024-11-18.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\reports\\report_2024-11-22.txt",
+      "SourceId": "SiteMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\",
+      "BasePath": "_content/SiteMVC",
+      "RelativePath": "reports/report_2024-11-22.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reports\\report_2024-11-22.txt"
     }
   ]
 }

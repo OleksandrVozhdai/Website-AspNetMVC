@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Порівняння швидкості виконання";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Підхід</th>
+            <th>Час виконання (мс)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Розпаралелювання на кількох ядрах (Parallel.For)</td>
+            <td>@ViewData["ParallelForTime"] ms</td>
+        </tr>
+        <tr>
+            <td>Багатопоточність (Threads)</td>
+            <td>@ViewData["ThreadingTime"] ms</td>
+        </tr>
+        <tr>
+            <td>TPL (Task Parallel Library)</td>
+            <td>@ViewData["TPLTime"] ms</td>
+        </tr>
+    </tbody>
+</table>

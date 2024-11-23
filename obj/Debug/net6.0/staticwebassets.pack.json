@@ -353,6 +353,10 @@
       "PackagePath": "staticwebassets\\reports\\report_2024-11-18.txt"
     },
     {
+      "Id": "C:\\Users\\Oleks\\OneDrive\\Dokumenty\\GitHub\\Website-AspNetMVC\\wwwroot\\reports\\report_2024-11-22.txt",
+      "PackagePath": "staticwebassets\\reports\\report_2024-11-22.txt"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SiteMVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

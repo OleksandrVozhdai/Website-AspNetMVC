@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SiteMVC.Models;
 
 namespace LAB2_OOKP.Models
 {
@@ -10,6 +11,8 @@ namespace LAB2_OOKP.Models
         {
         }
 
+        public DbSet<UsersOneTest> UsersOneTest { get; set; }
+        public DbSet<UsersTwoTest> UsersTwoTest { get; set; }
         public DbSet<User> UsersTable { get; set; }
         public DbSet<PizzaList> PizzaTable { get; set; }
         public DbSet<Purchase> Purchases { get; set; }

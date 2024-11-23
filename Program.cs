@@ -4,20 +4,18 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30); 
-    options.Cookie.HttpOnly = true; 
-    options.Cookie.IsEssential = true; 
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
 });
 
 builder.Services.AddControllersWithViews();
-
 builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -42,13 +40,20 @@ app.UseSession();
 
 app.UseAuthorization();
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapRazorPages();
-});
-
+// Визначення маршрутизації
 app.MapControllerRoute(
     name: "default",
+    pattern: "{controller=Home}/{action=CompareDeleteAndTruncateForUsersOneTest}/{id?}");
+
+app.MapControllerRoute(
+    name: "performance",
+    pattern: "Performance/ComparePerformance",
+    defaults: new { controller = "Performance", action = "ComparePerformance" });
+
+app.MapControllerRoute(
+    name: "default2",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
 
 app.Run();

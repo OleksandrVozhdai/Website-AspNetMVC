@@ -60,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Oleks/OneDrive/Dokumenty/GitHub/Website-AspNetMVC/Views/Home/PopulateUsersTwoTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3B1bGF0ZVVzZXJzVHdvVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Oleks/OneDrive/Dokumenty/GitHub/Website-AspNetMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -80,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Oleks/OneDrive/Dokumenty/GitHub/Website-AspNetMVC/Views/Performance/ComparePerformance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZm9ybWFuY2VcQ29tcGFyZVBlcmZvcm1hbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Oleks/OneDrive/Dokumenty/GitHub/Website-AspNetMVC/Views/PizzaList/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFMaXN0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -90,10 +98,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Oleks/OneDrive/Dokumenty/GitHub/Website-AspNetMVC/Views/PizzaList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFMaXN0XEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Oleks/OneDrive/Dokumenty/GitHub/Website-AspNetMVC/Views/Pizzas/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Oleks/OneDrive/Dokumenty/GitHub/Website-AspNetMVC/Views/Purchases/Index.cshtml]

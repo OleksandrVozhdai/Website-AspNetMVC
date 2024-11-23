@@ -16,7 +16,7 @@ namespace LAB2_OOKP.Controllers
             _context = context;
         }
 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public IActionResult Index(string filterId, string filterName, string filterPhoneNumber)
         {
             var users = _context.UsersTable.AsQueryable();
