@@ -21,24 +21,32 @@ namespace LAB2_OOKP.Controllers
         {
             var stopwatch = new Stopwatch();
 
-            var query = _context.UsersTwoTest;
+            var query = _context.UsersTwoTest.ToList();
 
             stopwatch.Start();
-            Parallel.ForEach(query.ToList(), user =>
+            Parallel.ForEach(query, user =>
             {
-                var result = user.Email.ToUpper(); 
+                var result = user.Email.ToUpper();
             });
             stopwatch.Stop();
             ViewData["ParallelForTime"] = stopwatch.ElapsedMilliseconds;
 
+
             stopwatch.Restart();
-            var threads = new Thread[4]; 
-            for (int i = 0; i < 4; i++)
+
+            int threadCount = 4;
+            var threads = new Thread[threadCount];
+            var partitionSize = query.Count / threadCount;
+
+            var threadResults = new List<int>();
+
+            for (int i = 0; i < threadCount; i++)
             {
                 int threadIndex = i;
                 threads[i] = new Thread(() =>
                 {
-                    var dataSubset = query.Skip(threadIndex * query.Count() / 4).Take(query.Count() / 4).ToList();
+       
+                    var dataSubset = query.Skip(threadIndex * partitionSize).Take(partitionSize).ToList();
                     foreach (var user in dataSubset)
                     {
                         var result = user.Email.ToUpper();
@@ -49,31 +57,36 @@ namespace LAB2_OOKP.Controllers
 
             foreach (var thread in threads)
             {
-                thread.Join();
+                thread.Join(); 
             }
+
             stopwatch.Stop();
-            ViewData["ThreadingTime"] = stopwatch.ElapsedMilliseconds;
+            ViewData["ThreadedTime"] = stopwatch.ElapsedMilliseconds;
+
+
 
             stopwatch.Restart();
-            var tasks = new Task[4];
+            var tasks = new List<Task>();
             for (int i = 0; i < 4; i++)
             {
-                int taskIndex = i;
-                tasks[i] = Task.Run(() =>
+                int taskIndex = i; 
+                tasks.Add(Task.Run(() =>
                 {
-                    var dataSubset = query.Skip(taskIndex * query.Count() / 4).Take(query.Count() / 4).ToList();
+                    var dataSubset = query.Skip(taskIndex * query.Count / 4).Take(query.Count / 4).ToList();
                     foreach (var user in dataSubset)
                     {
                         var result = user.Email.ToUpper();
                     }
-                });
+                }));
             }
 
-            Task.WhenAll(tasks).Wait();
+            Task.WaitAll(tasks.ToArray());
             stopwatch.Stop();
             ViewData["TPLTime"] = stopwatch.ElapsedMilliseconds;
 
             return View();
         }
+
+
     }
 }
